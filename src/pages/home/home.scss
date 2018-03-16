@@ -1,3 +1,19 @@
 page-home {
+    margin-top: 15%;
+    
+    .item-md {
+        padding-right: 16px;
+        margin-bottom: 10px;
+        border: 1px solid gray;
+        border-radius: 4px;
+    }
+
+    .label-md {
+        margin: 0px;
+    }
+
+    ion-avatar, ion-thumbnail {
+        display: inline;
+    }
 
 }
