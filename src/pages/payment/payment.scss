@@ -1,0 +1,47 @@
+page-payment {
+    margin-top: 15%;
+
+    ion-select {
+        max-width: 100%;
+    }
+
+    ion-navbar {
+        margin-bottom: 15px;
+    }
+
+    #cal {
+        background-color: lightgray;
+        border: 1px solid gray;
+        border-radius: 4px;
+    }
+
+    .list-md .item-block .item-inner {
+    border: 1px solid gray;
+    border-radius: 4px;
+    }
+
+    .item-md {
+    height: 5px;
+    padding-right: 16px;
+    margin-bottom: 15px;
+    }
+
+    .item-block {
+    min-height: 3.4rem;
+    }
+
+    .label-md {
+    height: 100%;
+    color: black;
+    background-color: lightgray;
+    }
+
+    ion-list {
+        border-radius: 4px;
+        padding: 20px;
+        border: 1px solid black;
+    }
+
+
+
+}

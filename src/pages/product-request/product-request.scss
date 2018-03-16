@@ -1,0 +1,34 @@
+page-product-request {
+
+    .list-md .item-block .item-inner {
+        border: 1px solid gray;
+        border-radius: 4px;
+    }
+
+    .item-md {
+        height: 5px;
+        padding-right: 16px;
+        margin-bottom: 15px;
+    }
+
+    .item-block {
+        min-height: 2.4rem;
+    }
+
+    .label-md {
+        height: 100%;
+        color: black;
+        background-color: lightgray;
+    }
+
+    ion-list {
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid black;
+    }
+
+    ion-navbar {
+        border-bottom: 1px solid black;
+    }
+
+}

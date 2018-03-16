@@ -1,0 +1,12 @@
+<ion-menu [content]="content">
+
+  <ion-content padding>
+    <ion-list>
+      <h3>Menu</h3>
+        <button menu-close ion-item *ngFor="let option of options" (click)="openPage(option)">{{option.title}}</button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav #content [root]="rootPage"></ion-nav>

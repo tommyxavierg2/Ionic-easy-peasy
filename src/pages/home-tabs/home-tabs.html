@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-toolbar id="head" color="primary">
+
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-buttons end>
+      <button ion-button>
+        Servicios financieros
+        <ion-icon name="contact"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-tabs selectedIndex="2" id="foot" color="primary">
+  <ion-tab *ngFor="let tab of tabs" [root]="tab.component" [tabTitle]="tab.name" [tabIcon]="tab.icon"></ion-tab>
+</ion-tabs>
