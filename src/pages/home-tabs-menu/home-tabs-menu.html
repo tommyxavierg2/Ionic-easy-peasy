@@ -1,18 +1,13 @@
-<!--
-  Generated template for the HomeTabsMenuPage page.
+<ion-menu [content]="content">
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
+  <ion-content padding>
+    <ion-list>
+      <h3>Menu</h3>
+      <button menu-close ion-item *ngFor="let option of options; let i = index" (click)="openPage(i)">{{option.title}}</button>
+      <button ion-item (click)="logout()">Logout</button>
+    </ion-list>
+  </ion-content>
 
-  <ion-navbar>
-    <ion-title>home.tabs.menu</ion-title>
-  </ion-navbar>
+</ion-menu>
 
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+<ion-nav #content [root]="rootPage"></ion-nav>

@@ -10,6 +10,7 @@ import { LoginPage } from '../pages/login/login';
 import { LoginMenuPage } from '../pages/login-menu/login-menu';
 import { ProductRequestPage } from '../pages/product-request/product-request';
 import { HomeTabsPage } from '../pages/home-tabs/home-tabs';
+import { HomeTabsMenuPage } from '../pages/home-tabs-menu/home-tabs-menu';
 import { PaymentPage } from '../pages/payment/payment';
 import { TransferPage } from '../pages/transfer/transfer';
  
@@ -25,7 +26,8 @@ import axios from 'axios';
     ProductRequestPage,
     HomeTabsPage,
     PaymentPage,
-    TransferPage
+    TransferPage,
+    HomeTabsMenuPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import axios from 'axios';
     ProductRequestPage,
     HomeTabsPage,
     PaymentPage,
-    TransferPage
+    TransferPage,
+    HomeTabsMenuPage
   ],
   providers: [
     StatusBar,
